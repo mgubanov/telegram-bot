@@ -29,7 +29,7 @@ import pytz
 # --- Setup ---
 load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
-WEBHOOK_URL = os.getenv("WEBHOOK_URL")
+WEBHOOK_URL = os.getenv("https://telegram-bot-i0eq.onrender.com")
 TOPIC_ID = 4  # your topic/thread ID inside the group
 BERLIN_TZ = pytz.timezone("Europe/Berlin")
 
